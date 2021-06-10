@@ -1,11 +1,11 @@
 name: esp_provisioning
 description: Espressif Provisioning library
-version: 1.0.0+6
+version: 1.0.0+6-nullsafety.0
 homepage: https://github.com/sunshine-tech/esp_provisioning.git
 author: Tuan PM <tuanpm@live.com>
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
   flutter: ">=1.10.0"
 
 dependencies:
@@ -14,14 +14,17 @@ dependencies:
   protobuf: ^2.0.0
   cryptography: ^2.0.1
   collection: ^1.15.0
-  flutter_ble_lib: ^2.3.2
-
+  flutter_ble_lib: #^2.3.2
+    git:
+      url: git://github.com/Polidea/FlutterBleLib.git
+      ref: develop
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-
+# required due to git dependency
+publish_to: none
 flutter:
   plugin:
     platforms:

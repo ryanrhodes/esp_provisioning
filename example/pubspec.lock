@@ -7,7 +7,7 @@ packages:
       name: async
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.6.1"
+    version: "2.5.0"
   bloc:
     dependency: transitive
     description:
@@ -84,7 +84,7 @@ packages:
       path: ".."
       relative: true
     source: path
-    version: "1.0.0+6"
+    version: "1.0.0+6-nullsafety.0"
   fake_async:
     dependency: transitive
     description:
@@ -107,10 +107,12 @@ packages:
   flutter_ble_lib:
     dependency: transitive
     description:
-      name: flutter_ble_lib
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.3.2"
+      path: "."
+      ref: develop
+      resolved-ref: a4df42eda471f0c53a06b7b9937db8b59585f318
+      url: "git://github.com/Polidea/FlutterBleLib.git"
+    source: git
+    version: "2.4.0"
   flutter_bloc:
     dependency: "direct main"
     description:
@@ -258,7 +260,7 @@ packages:
       name: source_span
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.8.1"
+    version: "1.8.0"
   stack_trace:
     dependency: transitive
     description:
@@ -293,7 +295,7 @@ packages:
       name: test_api
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.3.0"
+    version: "0.2.19"
   typed_data:
     dependency: transitive
     description:

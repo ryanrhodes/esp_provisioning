@@ -1,3 +1,7 @@
+## 1.0.0+6-nullsafety.0
+
+- Support nullsafety
+
 ## 1.0.0+6
 
 - Support flutter 2.0
