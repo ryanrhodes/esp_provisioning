@@ -16,7 +16,7 @@ dependencies:
   collection: ^1.15.0
   flutter_ble_lib: #^2.3.2
     git:
-      url: git://github.com/Polidea/FlutterBleLib.git
+      url: git@github.com:/Polidea/FlutterBleLib.git
       ref: beta/3.0.0
 
 dev_dependencies:
